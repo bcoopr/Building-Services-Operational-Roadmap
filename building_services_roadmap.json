@@ -1,31 +1,33 @@
 {
-  "initiative": "AssetWorks",
-  "category": "Operations",
-  "start_year": 2025,
-  "end_year": 2027,
-  "goals": [
-    "Achieve 90% user adoption within 24 months",
-    "Improve work order response time by 20%"
-  ],
-  "why_it_matters": {
-    "summary": "AssetWorks unifies operations by integrating Facilities, Building Services, Custodial, and IT under one platform.",
-    "details": {
-      "fiduciary_responsibility": "Provides transparency in asset tracking, enabling budget forecasting and capital planning based on real usage and maintenance data.",
-      "staff_experience": "Reduces duplicate systems and miscommunication by providing a unified work order and asset management platform.",
-      "member_experience": "Better facility performance improves clinical and non-clinical environments, enhancing patient and staff satisfaction.",
-      "regulatory_compliance": "Supports audit readiness by maintaining traceable service logs and asset histories in one compliant system."
-    }
-  },
-  "kpis": [
-    "Work order completion %",
-    "Average response time",
-    "Staff satisfaction score"
-  ],
-  "strategic_alignment": [
-    "Operational Transparency",
-    "Staff Empowerment"
-  ]
-},
+  "initiatives": [
+    {
+      "initiative": "AssetWorks",
+      "category": "Operations",
+      "start_year": 2025,
+      "end_year": 2027,
+      "goals": [
+        "Achieve 90% user adoption within 24 months",
+        "Improve work order response time by 20%"
+      ],
+      "why_it_matters": {
+        "summary": "AssetWorks unifies operations by integrating Facilities, Building Services, Custodial, and IT under one platform.",
+        "details": {
+          "fiduciary_responsibility": "Provides transparency in asset tracking, enabling budget forecasting and capital planning based on real usage and maintenance data.",
+          "staff_experience": "Reduces duplicate systems and miscommunication by providing a unified work order and asset management platform.",
+          "member_experience": "Better facility performance improves clinical and non-clinical environments, enhancing patient and staff satisfaction.",
+          "regulatory_compliance": "Supports audit readiness by maintaining traceable service logs and asset histories in one compliant system."
+        }
+      },
+      "kpis": [
+        "Work order completion %",
+        "Average response time",
+        "Staff satisfaction score"
+      ],
+      "strategic_alignment": [
+        "Operational Transparency",
+        "Staff Empowerment"
+      ]
+    },
     {
       "initiative": "Orbits Inventory Management",
       "category": "Supply Chain",
