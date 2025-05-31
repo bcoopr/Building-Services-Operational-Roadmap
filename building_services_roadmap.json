@@ -55,35 +55,35 @@
         "Cost Efficiency",
         "Supply Chain Optimization"
       ]
+    },
+    {
+      "initiative": "CLIA Dashboard",
+      "category": "Regulatory Reporting",
+      "start_year": 2026,
+      "end_year": 2028,
+      "goals": [
+        "Build an operational dashboard to monitor CLIA compliance in real-time",
+        "Reduce documentation errors related to testing and maintenance by 50%",
+        "Enable standardized re-education workflows based on audit findings"
+      ],
+      "why_it_matters": {
+        "summary": "The CLIA Dashboard supports real-time visibility into compliance with laboratory testing, maintenance, and documentation standards.",
+        "details": {
+          "financial_responsibility": "Reduces regulatory penalties and avoids rework costs due to missing documentation.",
+          "staff_experience": "Guides frontline users with clean task expectations and reduces confusion during audits.",
+          "member_experience": "Improves safety by ensuring testing protocols are maintained across devices and staff.",
+          "regulatory_compliance": "Directly supports Joint Commission, CLIA, and CMS readiness through audit-friendly data models."
+        }
+      },
+      "kpis": [
+        "Documentation compliance %",
+        "Audit finding reduction %",
+        "Re-education completion rate"
+      ],
+      "strategic_alignment": [
+        "Regulatory Compliance",
+        "Operational Risk Mitigation"
+      ]
     }
-  ]
-},
-{
-  "initiative": "CLIA Dashboard",
-  "category": "Regulatory Reporting",
-  "start_year": 2026,
-  "end_year": 2028,
-  "goals": [
-    "Build an operational dashboard to monitor CLIA compliance in real-time",
-    "Reduce documentation errors related to testing and maintenance by 50%",
-    "Enable standardized re-education workflows based on audit findings"
-  ],
-  "why_it_matters": {
-    "summary": "The CLIA Dashboard supports real-time visibility into compliance with laboratory standards and promotes readiness for Joint Commission audits.",
-    "details": {
-      "financial_responsibility": "Reduces regulatory penalties and avoids rework costs due to missing documentation.",
-      "staff_experience": "Guides frontline users with clear task expectations and reduces audit-related stress.",
-      "member_experience": "Improves testing accuracy and safety through consistent compliance with protocols.",
-      "regulatory_compliance": "Aligns with Joint Commission and CMS requirements, supporting rapid corrective action plans and audit readiness."
-    }
-  },
-  "kpis": [
-    "Documentation accuracy %",
-    "Time to corrective action",
-    "Staff re-education completion rate"
-  ],
-  "strategic_alignment": [
-    "Regulatory Excellence",
-    "Digital Enablement"
   ]
 }
