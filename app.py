@@ -28,14 +28,34 @@ for i in filtered:
     for k in i["kpis"]:
         st.markdown(f"- {k}")
 
-    st.markdown("**Why It Matters**")
-    st.markdown(f"- **Summary:** {i['why_it_matters']['summary']}")
-    details = i["why_it_matters"]["details"]
+   st.markdown("**Why It Matters**")
+
+# Get 'why_it_matters' safely
+why = i.get("why_it_matters", {})
+
+# Print summary if it exists
+if "summary" in why:
+    st.markdown(f"- **Summary:** {why['summary']}")
+
+# Get nested 'details' safely
+details = why.get("details", {})
+
+# Print each section if it exists
+if details.get("financial_responsibility"):
     st.markdown(f"- **Financial Responsibility:** {details['financial_responsibility']}")
+
+if details.get("workflow_efficiency"):
     st.markdown(f"- **Workflow Efficiency:** {details['workflow_efficiency']}")
+
+if details.get("safety_standardization"):
     st.markdown(f"- **Safety Standardization:** {details['safety_standardization']}")
+
+if details.get("regulatory_readiness"):
     st.markdown(f"- **Regulatory Readiness:** {details['regulatory_readiness']}")
+
+if details.get("space_utilization"):
     st.markdown(f"- **Space Utilization:** {details['space_utilization']}")
+
 
     st.markdown("**Strategic Alignment:**")
     for s in i["strategic_alignment"]:
