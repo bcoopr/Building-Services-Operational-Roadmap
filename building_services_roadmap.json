@@ -30,33 +30,32 @@
       ]
     },
     {
-      "initiative": "Orbits Inventory Management",
-      "category": "Supply Chain",
-      "start_year": 2025,
-      "end_year": 2026,
-      "goals": [
-        "Standardize 75% of medical inventory in 12 months",
-        "Achieve 10% cost savings within 18 months"
-      ],
-      "why_it_matters": {
-        "summary": "Orbits unifies inventory operations across departments...",
-        "details": {
-          "financial_responsibility": "Enables cost tracking by department and transfer logging...",
-          "workflow_efficiency": "Streamlines restocking and distribution processes...",
-          "safety_standardization": "Lot number tracking supports clinical safety...",
-          "regulatory_readiness": "Improves traceability and documentation for audits...",
-          "space_utilization": "Optimizes storage by shifting from hoarding to centralized control..."
-        }
-      },
-      "kpis": [
-        "Inventory accuracy %",
-        "Cost savings %",
-        "Usage and waste metrics"
-      ],
-      "strategic_alignment": [
-        "Cost Efficiency",
-        "Supply Chain Optimization"
-      ]
+     {
+  "initiative": "Orbits Inventory Management",
+  "category": "Supply Chain",
+  "start_year": 2025,
+  "end_year": 2026,
+  "goals": [
+    "Standardize 75% of medical inventory in 12 months",
+    "Achieve 10% cost savings within 18 months"
+  ],
+  "why_it_matters": {
+    "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness through traceability.",
+    "details": {
+      "strategic_alignment": "Orbits supports system-wide visibility and governance of supply chain functions, aligning with enterprise asset strategies.",
+      "staff_experience": "Simplifies restocking and eliminates duplicate inventory tracking workflows, reducing manual logging effort.",
+      "patient_impact": "Ensures reliable stock of critical supplies, preventing procedural delays or safety issues from missing materials.",
+      "operational_efficiency": "Allows for inter-facility transfers, vendor returns, and usage tracking in one system, improving response time and budget accuracy.",
+      "regulatory_readiness": "Links inventory use to specific rooms or devices, ensuring audit trail compliance for Joint Commission and CLIA."
     }
+  },
+  "kpis": [
+    "Inventory accuracy %",
+    "Cost savings %",
+    "Usage and waste metrics"
+  ],
+  "strategic_alignment": [
+    "Cost Efficiency",
+    "Supply Chain Optimization"
   ]
 }
