@@ -1,61 +1,167 @@
-{
-  "initiatives": [
-    {
-      "initiative": "AssetWorks",
-      "category": "Operations",
-      "start_year": 2025,
-      "end_year": 2027,
-      "goals": [
-        "Achieve 90% user adoption within 24 months",
-        "Improve work order response time by 20%"
-      ],
-      "why_it_matters": {
-        "summary": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
-        "details": {
-          "strategic_alignment": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system...",
-          "staff_experience": "It eliminates duplicative work and communication gaps...",
-          "patient_impact": "Reliable equipment, faster issue resolution...",
-          "operational_efficiency": "The platform will manage work orders, vendor tasks...",
-          "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance..."
-        }
-      },
-      "kpis": [
-        "Work order completion %",
-        "Average response time",
-        "Staff satisfaction score"
-      ],
-      "strategic_alignment": [
-        "Operational Transparency",
-        "Staff Empowerment"
-      ]
-    },
-    {
-     {
-  "initiative": "Orbits Inventory Management",
-  "category": "Supply Chain",
-  "start_year": 2025,
-  "end_year": 2026,
-  "goals": [
-    "Standardize 75% of medical inventory in 12 months",
-    "Achieve 10% cost savings within 18 months"
-  ],
-  "why_it_matters": {
-    "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness through traceability.",
-    "details": {
-      "strategic_alignment": "Orbits supports system-wide visibility and governance of supply chain functions, aligning with enterprise asset strategies.",
-      "staff_experience": "Simplifies restocking and eliminates duplicate inventory tracking workflows, reducing manual logging effort.",
-      "patient_impact": "Ensures reliable stock of critical supplies, preventing procedural delays or safety issues from missing materials.",
-      "operational_efficiency": "Allows for inter-facility transfers, vendor returns, and usage tracking in one system, improving response time and budget accuracy.",
-      "regulatory_readiness": "Links inventory use to specific rooms or devices, ensuring audit trail compliance for Joint Commission and CLIA."
-    }
-  },
-  "kpis": [
-    "Inventory accuracy %",
-    "Cost savings %",
-    "Usage and waste metrics"
-  ],
-  "strategic_alignment": [
-    "Cost Efficiency",
-    "Supply Chain Optimization"
-  ]
+{ 
+
+  "initiatives": [ 
+
+    { More actions
+
+      "initiative": "AssetWorks", 
+
+      "category": "Operations", 
+
+      "start_year": 2025, 
+
+      "end_year": 2027, 
+
+      "goals": [ 
+
+        "Achieve 90% user adoption within 24 months", 
+
+        "Improve work order response time by 20%" 
+
+      ], 
+      ], "why_it_matters": {
+  "strategic_alignment": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system, aligning with our broader goal of system integration and operational transparency (Principles 1 and 6).",
+  "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility, making daily operations smoother and more traceable for both in-house and third-party technicians (Principles 2 and 9).",
+  "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety (Principle 1: patient experience).",
+  "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system — reducing turnaround time and enabling data-driven lifecycle planning (Principles 4 and 7).",
+  "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness (Principle 3 and 8)."
 }
+
+
+      "kpis": [ 
+
+        "Work order completion %", 
+
+        "Average response time", 
+
+        "Staff satisfaction score" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Operational Transparency", 
+
+        "Staff Empowerment" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "Orbits Inventory Management", 
+
+      "category": "Supply Chain", 
+
+      "start_year": 2025, 
+
+      "end_year": 2026, 
+
+      "goals": [ 
+
+        "Standardize 75% of medical inventory in 12 months", 
+
+        "Achieve 10% cost savings within 18 months" 
+
+      ], 
+
+      "kpis": [ 
+
+        "Inventory accuracy %", 
+
+        "Cost savings %", 
+
+        "Usage and waste metrics" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Cost Efficiency", 
+
+        "Supply Chain Optimization" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "CLIA Dashboard", 
+
+      "category": "Compliance", 
+
+      "start_year": 2025, 
+
+      "end_year": 2026, 
+
+      "goals": [ 
+
+        "Launch CLIA dashboard within 12 months", 
+
+        "Ensure 100% deficiency-free audits by Year 3" 
+
+      ], 
+
+      "kpis": [ 
+
+        "CLIA compliance %", 
+
+        "Staff completion rate", 
+
+        "Deficiency trend" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Regulatory Readiness", 
+
+        "Transparency" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "Equipment Lifecycle Tracking", 
+
+      "category": "Facilities & Capital Planning", 
+
+      "start_year": 2026, 
+
+      "end_year": 2030, 
+
+      "goals": [ 
+
+        "Track uptime, downtime, and service logs", 
+
+        "Use lifecycle data to guide 3, 5, 10-year planning" 
+
+      ], 
+
+      "kpis": [ 
+
+        "Lifecycle data completeness %", 
+
+        "Average downtime", 
+
+        "End-of-life (EOL) planning coverage" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Capital Planning", 
+
+        "Operational Efficiency" 
+
+      ] 
+
+    } 
+
+  ] 
+
+} 
