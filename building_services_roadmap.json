@@ -1,145 +1,59 @@
 {
-  "initiative": "AssetWorks",
-  "category": "Operations",
-  "start_year": 2025,
-  "end_year": 2027,
-  "goals": [
-    "Achieve 90% user adoption within 24 months",
-    "Improve work order response time by 20%"
-  ],
-  "why_it_matters": {
-    "strategic_alignment": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
-    "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility.",
-    "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety.",
-    "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system — reducing turnaround time and enabling data-driven lifecycle planning.",
-    "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness."
-  },
-  "kpis": [
-    "Work order completion %",
-    "Average response time",
-    "Staff satisfaction score"
-  ],
-  "strategic_alignment": [
-    "Operational Transparency",
-    "Staff Empowerment"
+  "initiatives": [
+    {
+      "initiative": "AssetWorks",
+      "category": "Operations",
+      "start_year": 2025,
+      "end_year": 2027,
+      "goals": [
+        "Achieve 90% user adoption within 24 months",
+        "Improve work order response time by 20%"
+      ],
+      "why_it_matters": {
+        "strategic_alignment": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
+        "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility.",
+        "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety.",
+        "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system.",
+        "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness."
+      },
+      "kpis": [
+        "Work order completion %",
+        "Average response time",
+        "Staff satisfaction score"
+      ],
+      "strategic_alignment": [
+        "Operational Transparency",
+        "Staff Empowerment"
+      ]
+    },
+    {
+      "initiative": "Orbits Inventory Management",
+      "category": "Supply Chain",
+      "start_year": 2025,
+      "end_year": 2026,
+      "goals": [
+        "Standardize 75% of medical inventory in 12 months",
+        "Achieve 10% cost savings within 18 months"
+      ],
+      "why_it_matters": {
+        "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness.",
+        "details": {
+          "financial_responsibility": "Enables cost tracking by department and transfer logging across facilities.",
+          "workflow_efficiency": "Streamlines restocking and distribution processes.",
+          "safety_standardization": "Lot number tracking supports clinical safety and infection control protocols.",
+          "regulatory_readiness": "Improves traceability and documentation for audits.",
+          "space_utilization": "Optimizes storage by shifting from hoarding to centralized control."
+        }
+      },
+      "kpis": [
+        "Inventory accuracy %",
+        "Cost savings %",
+        "Usage and waste metrics"
+      ],
+      "strategic_alignment": [
+        "Cost Efficiency",
+        "Supply Chain Optimization"
+      ]
+    }
   ]
 }
-
-
-    { 
-
-      "initiative": "Orbits Inventory Management", 
-
-      "category": "Supply Chain", 
-
-      "start_year": 2025, 
-
-      "end_year": 2026, 
-
-      "goals": [ 
-
-        "Standardize 75% of medical inventory in 12 months", 
-
-        "Achieve 10% cost savings within 18 months" 
-
-      ], 
-
-      "kpis": [ 
-
-        "Inventory accuracy %", 
-
-        "Cost savings %", 
-
-        "Usage and waste metrics" 
-
-      ], 
-
-      "strategic_alignment": [ 
-
-        "Cost Efficiency", 
-
-        "Supply Chain Optimization" 
-
-      ] 
-
-    }, 
-
-    { 
-
-      "initiative": "CLIA Dashboard", 
-
-      "category": "Compliance", 
-
-      "start_year": 2025, 
-
-      "end_year": 2026, 
-
-      "goals": [ 
-
-        "Launch CLIA dashboard within 12 months", 
-
-        "Ensure 100% deficiency-free audits by Year 3" 
-
-      ], 
-
-      "kpis": [ 
-
-        "CLIA compliance %", 
-
-        "Staff completion rate", 
-
-        "Deficiency trend" 
-
-      ], 
-
-      "strategic_alignment": [ 
-
-        "Regulatory Readiness", 
-
-        "Transparency" 
-
-      ] 
-
-    }, 
-
-    { 
-
-      "initiative": "Equipment Lifecycle Tracking", 
-
-      "category": "Facilities & Capital Planning", 
-
-      "start_year": 2026, 
-
-      "end_year": 2030, 
-
-      "goals": [ 
-
-        "Track uptime, downtime, and service logs", 
-
-        "Use lifecycle data to guide 3, 5, 10-year planning" 
-
-      ], 
-
-      "kpis": [ 
-
-        "Lifecycle data completeness %", 
-
-        "Average downtime", 
-
-        "End-of-life (EOL) planning coverage" 
-
-      ], 
-
-      "strategic_alignment": [ 
-
-        "Capital Planning", 
-
-        "Operational Efficiency" 
-
-      ] 
-
-    } 
-
-  ] 
-
-} 
