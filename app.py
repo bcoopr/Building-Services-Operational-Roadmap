@@ -27,6 +27,18 @@ for i in filtered:
     st.markdown("**KPIs:**")
     for k in i["kpis"]:
         st.markdown(f"- {k}")
+            st.markdown("**KPIs:**")
+    for k in i["kpis"]:
+        st.markdown(f"- {k}")
+
+    st.markdown("**Why It Matters**")
+    st.markdown(f"- **Strategic Alignment:** {i['why_it_matters']['strategic_alignment']}")
+    st.markdown(f"- **Staff Experience:** {i['why_it_matters']['staff_experience']}")
+    st.markdown(f"- **Patient Impact:** {i['why_it_matters']['patient_impact']}")
+    st.markdown(f"- **Operational Efficiency:** {i['why_it_matters']['operational_efficiency']}")
+    st.markdown(f"- **Regulatory Readiness:** {i['why_it_matters']['regulatory_readiness']}")
+ 
+
     
     st.markdown("**Strategic Alignment:**")
     for s in i["strategic_alignment"]:
