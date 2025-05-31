@@ -40,7 +40,7 @@
       "why_it_matters": {
         "summary": "Orbits centralizes and tracks medical inventory with full financial and audit visibility.",
         "details": {
-          "financial_responsibility": "Enables cost center tracking and inter-departmental transfers.",
+          "fiduciary_responsibility": "Enables cost center tracking and inter-departmental transfers.",
           "staff_experience": "Streamlines restocking and ordering via a unified catalog.",
           "member_experience": "Reduces stockouts and ensures consistent care delivery.",
           "regulatory_compliance": "Supports lot number traceability and audit readiness."
@@ -69,7 +69,7 @@
       "why_it_matters": {
         "summary": "The CLIA Dashboard supports real-time visibility into compliance with laboratory testing, maintenance, and documentation standards.",
         "details": {
-          "financial_responsibility": "Reduces regulatory penalties and avoids rework costs due to missing documentation.",
+          "fiduciary_responsibility": "Reduces regulatory penalties and avoids rework costs due to missing documentation.",
           "staff_experience": "Guides frontline users with clean task expectations and reduces confusion during audits.",
           "member_experience": "Improves safety by ensuring testing protocols are maintained across devices and staff.",
           "regulatory_compliance": "Directly supports Joint Commission, CLIA, and CMS readiness through audit-friendly data models."
