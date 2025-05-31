@@ -23,8 +23,9 @@
   "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility, making daily operations smoother and more traceable for both in-house and third-party technicians (Principles 2 and 9).",
   "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety (Principle 1: patient experience).",
   "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system — reducing turnaround time and enabling data-driven lifecycle planning (Principles 4 and 7).",
-  "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness (Principle 3 and 8)."
-}
+"regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness (Principle 3 and 8)."
+},
+
 
 
       "kpis": [ 
