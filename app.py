@@ -15,6 +15,14 @@ selected_year = st.selectbox("Select a Year", years)
 # Filter initiatives by selected year
 filtered = [i for i in data["initiatives"] if i["start_year"] <= selected_year <= i["end_year"]]
 
+# Define principle display labels
+principles = {
+    "financial_responsibility": "Financial Responsibility",
+    "staff_experience": "Staff Experience",
+    "member_experience": "Member Experience",
+    "regulatory_compliance": "Regulatory Compliance"
+}
+
 # Display each filtered initiative
 for i in filtered:
     st.subheader(i["initiative"])
@@ -29,33 +37,18 @@ for i in filtered:
         st.markdown(f"- {k}")
 
     st.markdown("**Why It Matters**")
-
-    # Get 'why_it_matters' safely
     why = i.get("why_it_matters", {})
 
-    # Print summary if it exists
-   # Print summary if present
-if "summary" in why:
-    st.markdown(f"- **Summary:** {why['summary']}")
+    if "summary" in why:
+        st.markdown(f"- **Summary:** {why['summary']}")
 
-# Define ordered display labels
-details_labels = {
-    "strategic_alignment": "Strategic Alignment",
-    "staff_experience": "Staff Experience",
-    "patient_impact": "Patient Impact",
-    "operational_efficiency": "Operational Efficiency",
-    "regulatory_readiness": "Regulatory Readiness",
-    "financial_responsibility": "Financial Responsibility",
-    "workflow_efficiency": "Workflow Efficiency",
-    "safety_standardization": "Safety Standardization",
-    "space_utilization": "Space Utilization"
-}
+    details = why.get("details", {})
+    for key, label in principles.items():
+        if key in details:
+            st.markdown(f"- **{label}:** {details[key]}")
 
-# Get details section safely
-details = why.get("details", {})
+    st.markdown("**Strategic Alignment:**")
+    for s in i.get("strategic_alignment", []):
+        st.markdown(f"- {s}")
 
-# Print in the preferred order using friendly names
-for key in details_labels:
-    if key in details:
-        label = details_labels[key]
-        st.markdown(f"- **{label}:** {details[key]}")
+    st.markdown("---")
