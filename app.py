@@ -34,35 +34,28 @@ for i in filtered:
     why = i.get("why_it_matters", {})
 
     # Print summary if it exists
-    if "summary" in why:
-        st.markdown(f"- **Summary:** {why['summary']}")
+   # Print summary if present
+if "summary" in why:
+    st.markdown(f"- **Summary:** {why['summary']}")
 
-    # Get nested 'details' safely
-    details = why.get("details", {})
+# Define ordered display labels
+details_labels = {
+    "strategic_alignment": "Strategic Alignment",
+    "staff_experience": "Staff Experience",
+    "patient_impact": "Patient Impact",
+    "operational_efficiency": "Operational Efficiency",
+    "regulatory_readiness": "Regulatory Readiness",
+    "financial_responsibility": "Financial Responsibility",
+    "workflow_efficiency": "Workflow Efficiency",
+    "safety_standardization": "Safety Standardization",
+    "space_utilization": "Space Utilization"
+}
 
-    # Print each section if it exists
-    if details.get("financial_responsibility"):
-        st.markdown(f"- **Financial Responsibility:** {details['financial_responsibility']}")
+# Get details section safely
+details = why.get("details", {})
 
-    if details.get("workflow_efficiency"):
-        st.markdown(f"- **Workflow Efficiency:** {details['workflow_efficiency']}")
-
-    if details.get("safety_standardization"):
-        st.markdown(f"- **Safety Standardization:** {details['safety_standardization']}")
-
-    if details.get("regulatory_readiness"):
-        st.markdown(f"- **Regulatory Readiness:** {details['regulatory_readiness']}")
-
-    if details.get("space_utilization"):
-        st.markdown(f"- **Space Utilization:** {details['space_utilization']}")
-
-    if details.get("strategic_alignment"):
-        st.markdown(f"- **Strategic Alignment:** {details['strategic_alignment']}")
-
-    st.markdown("**Strategic Alignment:**")
-    for s in i["strategic_alignment"]:
-        st.markdown(f"- {s}")
-
-    st.markdown("---")
-
-
+# Print in the preferred order using friendly names
+for key in details_labels:
+    if key in details:
+        label = details_labels[key]
+        st.markdown(f"- **{label}:** {details[key]}")
