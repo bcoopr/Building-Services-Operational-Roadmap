@@ -28,7 +28,7 @@ for i in filtered:
     for k in i["kpis"]:
         st.markdown(f"- {k}")
 
-   st.markdown("**Why It Matters**")
+    st.markdown("**Why It Matters**")
 
 # Get 'why_it_matters' safely
 why = i.get("why_it_matters", {})
