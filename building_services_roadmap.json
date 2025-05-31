@@ -10,13 +10,12 @@
         "Improve work order response time by 20%"
       ],
       "why_it_matters": {
-        "summary": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
+        "summary": "AssetWorks unifies Building Services with Facilities through a shared platform.",
         "details": {
-          "strategic_alignment": "AssetWorks aligns with the goal of system integration and operational unification.",
-          "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility.",
-          "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety.",
-          "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system.",
-          "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness."
+          "financial_responsibility": "Allows accurate vendor tracking and budgeting across departments.",
+          "staff_experience": "Reduces duplicate logging and improves technician response clarity.",
+          "member_experience": "More reliable environments through faster, better-maintained systems.",
+          "regulatory_compliance": "Ties service records to assets, improving audit and compliance readiness."
         }
       },
       "kpis": [
@@ -39,13 +38,12 @@
         "Achieve 10% cost savings within 18 months"
       ],
       "why_it_matters": {
-        "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness.",
+        "summary": "Orbits centralizes and tracks medical inventory with full financial and audit visibility.",
         "details": {
-          "financial_responsibility": "Enables cost tracking by department and transfer logging across facilities.",
-          "workflow_efficiency": "Streamlines restocking and distribution processes.",
-          "safety_standardization": "Lot number tracking supports clinical safety and infection control protocols.",
-          "regulatory_readiness": "Improves traceability and documentation for audits.",
-          "space_utilization": "Optimizes storage by shifting from hoarding to centralized control."
+          "financial_responsibility": "Enables cost center tracking and inter-departmental transfers.",
+          "staff_experience": "Streamlines restocking and ordering via a unified catalog.",
+          "member_experience": "Reduces stockouts and ensures consistent care delivery.",
+          "regulatory_compliance": "Supports lot number traceability and audit readiness."
         }
       },
       "kpis": [
@@ -60,4 +58,3 @@
     }
   ]
 }
-
