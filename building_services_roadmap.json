@@ -10,11 +10,13 @@
         "Improve work order response time by 20%"
       ],
       "why_it_matters": {
-        "strategic_alignment": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
-        "staff_experience": "It eliminates duplicative work and communication gaps.",
-        "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety.",
-        "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system.",
-        "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness."
+  "summary": "AssetWorks unifies operations by bridging internal workflows with Facilities' existing asset system.",
+  "details": {
+    "strategic_alignment": "AssetWorks aligns with the goal of system integration and operational unification.",
+    "staff_experience": "It eliminates duplicative work and communication gaps between departments by enabling shared work order visibility.",
+    "patient_impact": "Reliable equipment, faster issue resolution, and better-maintained environments all contribute to improved patient comfort and safety.",
+    "operational_efficiency": "The platform will manage work orders, vendor tasks, and medical equipment maintenance under one system.",
+    "regulatory_readiness": "Tying maintenance logs to individual assets helps ensure compliance for CLIA, Joint Commission, and audit readiness."
       },
       "kpis": [
         "Work order completion %",
