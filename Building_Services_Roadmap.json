@@ -1,0 +1,161 @@
+{ 
+
+  "initiatives": [ 
+
+    { 
+
+      "initiative": "AssetWorks", 
+
+      "category": "Operations", 
+
+      "start_year": 2025, 
+
+      "end_year": 2027, 
+
+      "goals": [ 
+
+        "Achieve 90% user adoption within 24 months", 
+
+        "Improve work order response time by 20%" 
+
+      ], 
+
+      "kpis": [ 
+
+        "Work order completion %", 
+
+        "Average response time", 
+
+        "Staff satisfaction score" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Operational Transparency", 
+
+        "Staff Empowerment" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "Orbits Inventory Management", 
+
+      "category": "Supply Chain", 
+
+      "start_year": 2025, 
+
+      "end_year": 2026, 
+
+      "goals": [ 
+
+        "Standardize 75% of medical inventory in 12 months", 
+
+        "Achieve 10% cost savings within 18 months" 
+
+      ], 
+
+      "kpis": [ 
+
+        "Inventory accuracy %", 
+
+        "Cost savings %", 
+
+        "Usage and waste metrics" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Cost Efficiency", 
+
+        "Supply Chain Optimization" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "CLIA Dashboard", 
+
+      "category": "Compliance", 
+
+      "start_year": 2025, 
+
+      "end_year": 2026, 
+
+      "goals": [ 
+
+        "Launch CLIA dashboard within 12 months", 
+
+        "Ensure 100% deficiency-free audits by Year 3" 
+
+      ], 
+
+      "kpis": [ 
+
+        "CLIA compliance %", 
+
+        "Staff completion rate", 
+
+        "Deficiency trend" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Regulatory Readiness", 
+
+        "Transparency" 
+
+      ] 
+
+    }, 
+
+    { 
+
+      "initiative": "Equipment Lifecycle Tracking", 
+
+      "category": "Facilities & Capital Planning", 
+
+      "start_year": 2026, 
+
+      "end_year": 2030, 
+
+      "goals": [ 
+
+        "Track uptime, downtime, and service logs", 
+
+        "Use lifecycle data to guide 3, 5, 10-year planning" 
+
+      ], 
+
+      "kpis": [ 
+
+        "Lifecycle data completeness %", 
+
+        "Average downtime", 
+
+        "End-of-life (EOL) planning coverage" 
+
+      ], 
+
+      "strategic_alignment": [ 
+
+        "Capital Planning", 
+
+        "Operational Efficiency" 
+
+      ] 
+
+    } 
+
+  ] 
+
+} 
+
+ 
