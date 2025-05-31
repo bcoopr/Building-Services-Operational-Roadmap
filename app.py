@@ -27,7 +27,7 @@ for i in filtered:
     st.markdown("**KPIs:**")
     for k in i["kpis"]:
         st.markdown(f"- {k}")
-            st.markdown("**KPIs:**")
+        st.markdown("**KPIs:**")
     for k in i["kpis"]:
         st.markdown(f"- {k}")
 
