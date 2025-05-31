@@ -6,8 +6,10 @@
       "start_year": 2025,
       "end_year": 2029,
       "goals": [
-        "Achieve 90% user adoption within 36 months",
-        "Improve work order response time by 20%"
+        "Engage with Facilities, IT, and vendors to align implementation roadmap",
+        "Begin internal system use and educate staff on unified work order management",
+        "Expand use across IT, Custodial, and Building Services to unify operations",
+        "Automate work order creation and close-out to ensure transparency and efficiency"
       ],
       "why_it_matters": {
         "summary": "AssetWorks unifies operations by integrating Facilities, Building Services, Custodial, and IT under one platform.",
@@ -32,18 +34,21 @@
       "initiative": "Orbits Inventory Management",
       "category": "Supply Chain",
       "start_year": 2025,
-      "end_year": 2026,
+      "end_year": 2029,
       "goals": [
-        "Standardize 75% of medical inventory in 12 months",
-        "Achieve 10% cost savings within 18 months"
+        "Capture baseline inventory across departments",
+        "Standardize medical products and define usage categories with clinical leadership",
+        "Perform switch-and-save analysis based on cost, safety, and efficiency",
+        "Reorganize stockrooms and set accurate PAR levels based on real usage",
+        "Implement scan-outs and digital workflows to eliminate paper tracking"
       ],
       "why_it_matters": {
         "summary": "Orbits centralizes and tracks medical inventory with full financial and audit visibility.",
         "details": {
-          "fiduciary_responsibility": "Enables cost center tracking and inter-departmental transfers.",
-          "staff_experience": "Streamlines restocking and ordering via a unified catalog.",
-          "member_experience": "Reduces stockouts and ensures consistent care delivery.",
-          "regulatory_compliance": "Supports lot number traceability and audit readiness."
+          "fiduciary_responsibility": "Enables cost center tracking and inter-departmental transfers, supporting budget accountability.",
+          "staff_experience": "Streamlines restocking, reduces search time, and improves order accuracy through a unified catalog.",
+          "member_experience": "Ensures critical supplies are in place to support consistent, timely patient care.",
+          "regulatory_compliance": "Supports lot number traceability, audit readiness, and compliance with medical supply handling protocols."
         }
       },
       "kpis": [
@@ -62,27 +67,30 @@
       "start_year": 2025,
       "end_year": 2028,
       "goals": [
-        "Build an operational dashboard to monitor CLIA compliance in real-time",
-        "Reduce documentation errors related to testing and maintenance by 50%",
-        "Enable standardized re-education workflows based on audit findings"
+        "Build an operational dashboard and mobile-friendly app to perform real-time CLIA audits",
+        "Achieve 100% compliance in documentation and maintenance",
+        "Use audit findings to implement standardized re-education workflows across departments",
+        "Lay foundation for expanding audit tools across other operational units"
       ],
       "why_it_matters": {
         "summary": "The CLIA Dashboard supports real-time visibility into compliance with laboratory testing, maintenance, and documentation standards.",
         "details": {
-          "fiduciary_responsibility": "Reduces regulatory penalties and avoids rework costs due to missing documentation.",
-          "staff_experience": "Guides frontline users with clean task expectations and reduces confusion during audits.",
-          "member_experience": "Improves safety by ensuring testing protocols are maintained across devices and staff.",
-          "regulatory_compliance": "Directly supports Joint Commission, CLIA, and CMS readiness through audit-friendly data models."
+          "fiduciary_responsibility": "Minimizes risk of regulatory penalties and streamlines audit readiness processes.",
+          "staff_experience": "Guides frontline users with clean task expectations, reminders, and audit support.",
+          "member_experience": "Improves patient safety by ensuring critical testing protocols are tracked and verified.",
+          "regulatory_compliance": "Enables full traceability of device maintenance and personnel training history."
         }
       },
       "kpis": [
         "Documentation compliance %",
         "Audit finding reduction %",
-        "Re-education completion rate"
+        "Re-education completion rate",
+        "CLIA survey readiness score"
       ],
       "strategic_alignment": [
         "Regulatory Compliance",
-        "Operational Risk Mitigation"
+        "Operational Risk Mitigation",
+        "Digital Transformation"
       ]
     }
   ]
