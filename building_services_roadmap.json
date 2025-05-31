@@ -50,52 +50,36 @@
 
     { 
 
-      "initiative": "Orbits Inventory Management", 
+   {
+  "initiative": "Orbits Inventory Management",
+  "category": "Supply Chain",
+  "start_year": 2025,
+  "end_year": 2026,
+  "goals": [
+    "Standardize 75% of medical inventory in 12 months",
+    "Achieve 10% cost savings within 18 months"
+  ],
+  "why_it_matters": {
+    "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness.",
+    "details": {
+      "financial_responsibility": "Enables cost tracking by department and transfer logging across facilities. Supports more accurate budgeting and internal controls.",
+      "workflow_efficiency": "Streamlines restocking and distribution processes. Reduces manual tracking and time spent locating materials, freeing up staff resources.",
+      "safety_standardization": "Lot number tracking supports clinical safety and infection control protocols. Enables rapid response to recalls and compliance audits.",
+      "regulatory_readiness": "Improves traceability and documentation for audits. Standardized forms and usage logs help meet Joint Commission and CLIA standards.",
+      "space_utilization": "Optimizes storage by shifting from hoarding to centralized control. Allows space planning based on actual consumption."
+    }
+  },
+  "kpis": [
+    "Inventory accuracy %",
+    "Cost savings %",
+    "Usage and waste metrics"
+  ],
+  "strategic_alignment": [
+    "Cost Efficiency",
+    "Supply Chain Optimization"
+  ]
+}
 
-      "category": "Supply Chain", 
-
-      "start_year": 2025, 
-
-      "end_year": 2026, 
-
-      "goals": [ 
-
-        "Standardize 75% of medical inventory in 12 months", 
-
-        "Achieve 10% cost savings within 18 months" 
-        "why_it_matters": {,
-  "summary": "Orbits unifies inventory operations across departments, improves material availability, and supports regulatory readiness through standardized tracking.",
-  "details": {
-    "financial_responsibility": "Enables cost tracking by department and transfer logging across facilities. Supports more accurate budgeting and reduces over-ordering and expired stock.",
-    "workflow_efficiency": "Streamlines restocking and distribution processes. Reduces manual tracking and time spent locating materials, freeing staff to focus on core tasks.",
-    "safety_standardization": "Lot number tracking supports clinical safety and infection control protocols. Enables rapid response to recalls and enforces expiration visibility.",
-    "regulatory_readiness": "Improves traceability and documentation for audits. Standardized forms and usage logs help meet Joint Commission and CLIA expectations.",
-    "space_utilization": "Optimizes storage by shifting from hoarding to centralized control. Allows space planning based on actual consumption trends and distribution flows."
-  }
-},
-
-
-      ], 
-
-      "kpis": [ 
-
-        "Inventory accuracy %", 
-
-        "Cost savings %", 
-
-        "Usage and waste metrics" 
-
-      ], 
-
-      "strategic_alignment": [ 
-
-        "Cost Efficiency", 
-
-        "Supply Chain Optimization" 
-
-      ] 
-
-    }, 
 
     { 
 
