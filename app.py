@@ -25,8 +25,8 @@ for i in filtered:
         st.markdown(f"- {g}")
     
    st.markdown("**KPIs:**")
-for k in i["kpis"]:
-    st.markdown(f"- {k}")
+   for k in i["kpis"]:
+       st.markdown(f"- {k}")
 
 st.markdown("**Why It Matters**")
 st.markdown(f"- **Summary:** {i['why_it_matters']['summary']}")
